@@ -1,0 +1,56 @@
+:root {
+  /* Color — "observatory" */
+  --bg: #0a0b10;
+  --bg-elevated: #12131b;
+  --surface: #1a1c27;
+  --border: #262938;
+  --border-strong: #363a4e;
+  --text: #e8e9f0;
+  --text-muted: #9ba0b4;
+  --text-faint: #6c7186;
+  --accent: #4dd9c7;
+  --accent-ink: #0a0b10;
+  --accent-dim: rgba(77, 217, 199, 0.14);
+
+  /* Typography */
+  --font-display: 'Space Grotesk Variable', 'Space Grotesk', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', monospace;
+
+  --fs-display: clamp(3rem, 2.1rem + 4.5vw, 6.5rem);
+  --fs-h2: clamp(1.75rem, 1.45rem + 1.5vw, 2.25rem);
+  --fs-h3: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --fs-lead: clamp(1rem, 0.93rem + 0.35vw, 1.125rem);
+  --fs-body: 1rem;
+  --fs-mono: 0.8125rem;
+
+  --lh-body: 1.6;
+  --lh-tight: 1.15;
+
+  /* Spacing — 8px base */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-10: 80px;
+  --space-12: 96px;
+
+  /* Layout */
+  --content-max: 1200px;
+  --rail-width: 88px;
+
+  /* Motion */
+  --ease-standard: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 150ms;
+  --dur-standard: 300ms;
+  --dur-slow: 500ms;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+
+  color-scheme: dark;
+}
