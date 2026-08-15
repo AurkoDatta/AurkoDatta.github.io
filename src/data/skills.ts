@@ -16,8 +16,4 @@ export const skillGroups: SkillGroup[] = [
     label: 'Data',
     items: ['MongoDB', 'PostgreSQL'],
   },
-  {
-    label: 'Tools',
-    items: ['Microsoft Office Suite'],
-  },
 ];

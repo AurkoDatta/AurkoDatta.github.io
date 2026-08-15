@@ -23,6 +23,8 @@
   letter-spacing: 0.1em;
   color: var(--accent);
   margin-bottom: var(--space-1);
+  max-width: none;
+  text-align: center;
 }
 
 .title {

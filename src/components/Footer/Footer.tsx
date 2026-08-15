@@ -10,7 +10,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <p className={styles.credit}>
-          &copy; {year} {profile.name}. Built with React, TypeScript &amp; Vite.
+          &copy; {year} {profile.name}.
         </p>
         <div className={styles.actions}>
           <IconButton
